@@ -76,7 +76,7 @@ OurTorrent is a peer-to-peer (P2P) file-sharing system inspired by the BitTorren
     ```
 
 4. **For running Tester**:
-    - Navigate to 
+    - Navigate to Tester_implementation
     - Install OpenSSL libraries in Linux :
     ```bash
     sudo apt-get install libssl-dev
