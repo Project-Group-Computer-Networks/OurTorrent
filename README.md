@@ -72,7 +72,7 @@ OurTorrent is a peer-to-peer (P2P) file-sharing system inspired by the BitTorren
     - To test the code, run the client with a torrent file present in examples folder
     ```
     mkdir ../downloads
-    python3 main.py ../examples/ubuntu.torrent -d ../downloads
+    python3 main.py ../examples/ubuntu.torrent -d ../downloads/
     ```
 
 4. **For running Tester**:
