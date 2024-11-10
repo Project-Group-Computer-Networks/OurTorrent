@@ -43,7 +43,7 @@ OurTorrent is a peer-to-peer (P2P) file-sharing system inspired by the BitTorren
    ```
 
 2. **For running Tracker**:
-    - Navigate to Tracker_Implementation
+    - Navigate to tracker_implementation
     - Install the following dependencies:
     ```bash
     sudo apt update
@@ -76,7 +76,7 @@ OurTorrent is a peer-to-peer (P2P) file-sharing system inspired by the BitTorren
     ```
 
 4. **For running Tester**:
-    - Navigate to Tester_implementation
+    - Navigate to tester_implementation
     - Install OpenSSL libraries in Linux :
     ```bash
     sudo apt-get install libssl-dev
