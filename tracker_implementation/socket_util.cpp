@@ -28,14 +28,6 @@ sockaddr_in createIPv4Address(const char *ip, int port)
     return address;
 }
 
-/* uint64_t ntohll(uint64_t value)
-{
-    if (htonl(1) != 1)
-    { // Check if the system is big-endian
-        return value;
-    }
-    return ((uint64_t)ntohl(value & 0xFFFFFFFF) << 32) | ntohl(value >> 32);
-} */
 uint64_t ntohll(uint64_t value)
 {
     // If the system is little-endian, swap byte order
