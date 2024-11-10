@@ -6,6 +6,7 @@ set<uint64_t> valid_connection_ids;
 
 uint64_t generateConnectionID()
 {
+    // generate a Connection ID to ensure that UDP knows which peer is involved.
     return ((uint64_t)rand() << 32) | rand();
 }
 void handleConnectRequest(char *buffer, int bytesRcvd, int listenSocket, sockaddr_in &clientAddr, socklen_t addrLen)
