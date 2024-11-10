@@ -93,3 +93,5 @@ OurTorrent is a peer-to-peer (P2P) file-sharing system inspired by the BitTorren
 - Nayan Kakade
 - Sarvesh Baheti
 - Roopam Taneja 
+
+## Made with ❤️ by team "OurTorrent"
