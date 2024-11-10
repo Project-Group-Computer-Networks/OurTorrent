@@ -88,8 +88,9 @@ OurTorrent is a peer-to-peer (P2P) file-sharing system inspired by the BitTorren
     ./client
     ```
 
-[**Video Demo Link**](https://drive.google.com/drive/folders/1iP07gzn7CfkDTpSQS4E216mQ8_RyW-Q7?usp=drive_link)
+## Video Demo Link:
 
+[**Video Demo Link**](https://drive.google.com/drive/folders/1iP07gzn7CfkDTpSQS4E216mQ8_RyW-Q7?usp=drive_link)
 
 ## Contributors:
 - Meet Sindhav  
