@@ -1,10 +1,10 @@
-# OurTorrent
+# Client Implementation
 
-OurTorrent is our attempt at developing a bittorrent client, which enables users to download files over internet in a P2P manner.
+Our attempt at developing a bittorrent client, which enables users to download any file over the internet in a P2P manner.
 
 ## Installation and Build :hammer_and_wrench:
 
-* Clone this repository on an Ubuntu machine and move to the working directory
+* Clone this repository on a Linux machine and move to the working directory
 
 ```bash
     $ git clone https://github.com/Project-Group-Computer-Networks/client_bittorent.git
