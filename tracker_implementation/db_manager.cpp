@@ -1,7 +1,7 @@
 #include "peer_manager.h"
 #include "db_manager.h"
 #include <sqlite3.h>
-
+//This is the database implementation for the tracker
 sqlite3 *db = nullptr;
 
 std::vector<Peer> retrievePeersFromDatabase(const std::string &infoHash)
