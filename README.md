@@ -1,6 +1,6 @@
 # OurTorrent
 
-OurTorrent is a peer-to-peer (P2P) file-sharing system inspired by the BitTorrent protocol. This decentralized system allows users to download files more quickly by connecting with multiple uploaders, rather than relying on a single central server. OurTorrent aims to simulate the peer-to-peer file-sharing experience, including a custom client and a lightweight UDP tracker for efficient, low-overhead communication.
+OurTorrent is a peer-to-peer (P2P) file-sharing system inspired by the BitTorrent protocol. This decentralized system allows users to download files more quickly by connecting with multiple uploaders, rather than relying on a single central server. OurTorrent aims to simulate a peer-to-peer file-sharing experience, including a custom client and a lightweight UDP tracker for efficient, low-overhead communication.
 
 ## Key Features
 
@@ -32,7 +32,7 @@ OurTorrent is a peer-to-peer (P2P) file-sharing system inspired by the BitTorren
    - Rich package for table formatting
    - urrlib3 library for HTTP connections
 
-### Note: Use Ubuntu systems since the project uses POSIX library, unavailable on Windows
+**Note: Since the project uses POSIX libraries which are unavailable on Windows, it is requested to use a Linux system.**
 
 ## Installation
 
@@ -87,7 +87,8 @@ OurTorrent is a peer-to-peer (P2P) file-sharing system inspired by the BitTorren
     g++ -o client main.cpp announce_request.cpp connect_request.cpp peer_decoder.cpp -std=c++20 -lssl -lcrypto
     ./client
     ```
-## [Video Demo Link] (https://drive.google.com/drive/folders/1iP07gzn7CfkDTpSQS4E216mQ8_RyW-Q7?usp=drive_link)
+
+[**Video Demo Link**](https://drive.google.com/drive/folders/1iP07gzn7CfkDTpSQS4E216mQ8_RyW-Q7?usp=drive_link)
 
 
 ## Contributors:
