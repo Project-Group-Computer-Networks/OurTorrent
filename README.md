@@ -23,7 +23,7 @@ OurTorrent is a peer-to-peer (P2P) file-sharing system inspired by the BitTorren
 ## Tech Stack and Libraries
 
 1. **C++ for Tracker**
-2. **Python for Peer**
+2. **Python for Client**
 
 ## Tools and Technologies Used
    - Sqlite3 for database
@@ -59,7 +59,7 @@ OurTorrent is a peer-to-peer (P2P) file-sharing system inspired by the BitTorren
     ```
 
 3. **For running Client**:
-    - Navigate to client_bittorent
+    - Navigate to client_implementation
     - Download all the pre-requisites present in /requirements.txt 
     ```bash
     pip install -r requirements.txt
@@ -70,6 +70,7 @@ OurTorrent is a peer-to-peer (P2P) file-sharing system inspired by the BitTorren
     python3 main.py --help
     ```
     - To test the code, run the client with a torrent file present in examples folder
+      As an example, we are using a torrent file from examples folder and creating a new folder as destination.
     ```
     mkdir ../downloads
     python3 main.py ../examples/ubuntu.torrent -d ../downloads/
